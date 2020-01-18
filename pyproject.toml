@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "stock-price"
+version = "0.1.0"
+description = ""
+authors = ["mo-mo- <mo-mo-666.pu_ki@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.18.1"
+pandas = "^0.25.3"
+scipy = "^1.4.1"
+scikit-learn = "^0.22.1"
+matplotlib = "^3.1.2"
+
+[tool.poetry.dev-dependencies]
+jupyterlab = "^1.2.5"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
