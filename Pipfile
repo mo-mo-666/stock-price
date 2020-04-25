@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+jupyter = "*"
+jupyterlab = "*"
+
+[packages]
+numpy = "*"
+scipy = "*"
+scikit-learn = "*"
+matplotlib = "*"
+seaborn = "*"
+pandas = "*"
+pandas-datareader = "*"
+beautifulsoup4 = "*"
+html5lib = "*"
+lxml = "*"
+bokeh = "*"
+mpl-finance = "*"
+
+[requires]
+python_version = "3.7"
